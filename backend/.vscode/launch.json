@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Debug Ecoleta Server",
+            "program": "${workspaceFolder}\\src\\index.ts",
+            "preLaunchTask": "npm: build",
+            "sourceMaps": true,
+            "smartStep": true,
+            "internalConsoleOptions": "openOnSessionStart",
+            "outFiles": ["${workspaceFolder}/tmp/**/*.js"],
+            "envFile": "${workspaceFolder}/.env.development"
+        }
+    ]
+}
