@@ -25,7 +25,7 @@ git clone https://github.com/arcmena/ecoleta.git
 
 > **Note:** You will need to have PostgreSQL installed on your machine.
 
-### Especific Database configuration
+### Specific database configuration
 
 After installing the dependencies, create a **.env.development** file in the backend directory with the following structure:
 
